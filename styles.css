@@ -1,0 +1,244 @@
+#header{
+    display: flex;
+    justify-content: space-between;
+}
+.kw-logo{
+    height:4svh;
+    padding-left: 60%;
+}
+.cart-1{
+    display: flex;
+    align-items: center;
+}
+.cart-icon-1{
+    height: 4svh;
+    margin-top: 0px;
+}
+.words{
+    margin: 0px;
+    /* font-size: 30px; */
+    font-weight: ;
+}
+#kw-background{
+  margin-bottom: 0%;  
+}
+
+#kw-bgi{
+    height: 60svh;
+    width:98.5vw;
+    /* border: 5px solid black; */
+    position: relative;
+}
+.banner-text-1 {
+    font-weight: 200;
+}
+.banner-text-1 p{
+    margin: 2px;
+}
+.banner-text-2{
+    font-size:small;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.banner-text{
+    color: white;
+    position: absolute;
+    top:10%;
+    left:10%;
+    font-size:12svh
+}
+.fun{
+    /* margin:50px; */
+}
+#havefun{
+    display: flex;
+    /* justify-content: space-evenly; */
+    /* padding: ; */
+}
+#container-1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.bookimage{
+    height: 34vh;
+
+}
+.button-text{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+
+}
+.cart-button{
+    display: flex;
+    background-color: steelblue;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    height:37px ;
+    min-width:5vw;
+    margin-top: 0px;
+    min-height: 1px;
+    color: white;
+}
+
+#container-2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#container-3{
+    display: flex;
+    justify-content: space-evenly;
+}
+#container-4{
+    background-color: black;
+    display: block;
+    margin-top: 200px;
+
+}
+.foot-image{
+    max-height:12svh;
+    max-width: 12svh;
+    border-radius: 100%;
+    margin-left: 50px;
+}
+.footer{
+    display: flex;
+    min-height: 12svh;
+    justify-content: space-between;
+    background-color: #000000;
+    color: white;
+}
+#headings-1{
+    padding-left: 7svh;
+    font-size: xx-large;
+    font-weight: 550;
+    margin-bottom: 5px;
+    margin-top: 100px;
+}
+#headings-2{
+    margin: 5px;
+    max-width: fit-content;
+    font-size: xx-large;
+    font-weight: 550;
+    color:#fff;
+}
+#words{
+    font-size: large;
+    font-weight:bolder;
+    margin:0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#types{
+    color: rgb(172, 165, 172);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+img[src*="/cart-icon-white"]{
+    max-height:3vh;
+    padding-top: 1vh;
+    padding-left: 5px;
+    padding-bottom: 9px;
+    width: 1.3vw;
+}
+#add-text{
+    font-weight: 800;
+
+}
+
+.foot-word{
+    padding-right: 10px;
+}
+
+@media only screen and (max-width: 426px){
+
+    .kw-logo{
+        height:8vh;
+        padding: 0px;
+    }
+
+    .cart-1{
+        padding-left:93px ;
+
+        /* height: 5dvh; */
+    }
+    #header{
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .words{
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .cart-icon-1{
+        height: 7vh;
+    }
+
+    #kw-bgi{
+        width: 124vw;
+
+
+    }
+    #havefun{
+        display: block;
+    }
+    .banner-text{
+        font-size: 60px;
+        top: 10%;
+        left: 15%;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .banner-text-2{
+        margin-top: 25px;
+    }
+    .bookimage{
+        height:60vh
+    }
+    #container-1{
+        margin: 0px 0px 0px 140px;
+    }
+    #container-2, #container-3{
+        margin: 0px 0px 0px 50px;
+    }
+    #container-4{
+        width:126vw;
+        margin-top:100px ;
+    }
+    #container-3, #container-1, #container-2{
+        display: flex;
+        flex-direction: column;
+    }
+    #headings-1{
+        display: flex;
+        font-size: 40px;
+        margin-top: 70px;
+    }
+    #words{
+        font-size: 30px;
+    }
+    #types{
+        font-size: 30px;
+        margin-top: 5px;
+    }
+    .cart-button{
+        height: 8vh;
+        width: 15vh;
+        margin-bottom: 35px;
+    }
+    #add-text{
+        font-size: 20px;
+    }
+    img[src *= cart-icon-white]{
+        height: 5vh;
+        width: 5vw;
+
+    }
+    #container{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+}
